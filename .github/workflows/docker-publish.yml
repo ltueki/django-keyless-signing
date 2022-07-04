@@ -2,7 +2,7 @@ name: Publish and Sign Container Image
 
 on:
   schedule:
-    - cron: '10 17 * * *'
+    - cron: '32 11 * * *'
   push: 
     branches: [ main ]
     # Publish semver tags as releases.
